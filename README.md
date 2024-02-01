@@ -59,5 +59,5 @@ Can be used with Xcode 15.1 and above. Compatible with iPhone and iPad with mini
 ## Captures:
 |Description| Capture|
 |---|---|
-| Test cases OK | ![image](https://github.com/adpaladines/TheMealDB/Resources/) |
-| Work around only for M1 Macs | ![image](https://github.com/adpaladines/TheMealDB/Resources/) |
+| Test cases OK | ![image](https://github.com/adpaladines/TheMealDB/blob/main/Resources/tests.png) |
+| Work around only for M1 Macs | ![image](https://github.com/adpaladines/TheMealDB/blob/main/Resources/xcode_test_workaround.png) |
