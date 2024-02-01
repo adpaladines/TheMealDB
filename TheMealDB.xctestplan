@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "3EF5B67D-DDFA-4F19-9952-C509BA25AD49",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:TheMealDB.xcodeproj",
+      "identifier" : "DD2F12C32B6AAD80007C6239",
+      "name" : "TheMealDB"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:TheMealDB.xcodeproj",
+        "identifier" : "DD2F12D82B6AAD81007C6239",
+        "name" : "TheMealDBTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:TheMealDB.xcodeproj",
+        "identifier" : "DD2F12E22B6AAD81007C6239",
+        "name" : "TheMealDBUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

@@ -9,12 +9,17 @@ import SwiftUI
 
 @main
 struct TheMealDBApp: App {
-    let persistenceController = PersistenceController.shared
-
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            if UIDevice.current.isJailBroken {
+                JailbreakCheckView(isJailbroken: true)
+            }else {
+                NavigationView {
+                    AppCoordinator().start()
+                }
+                .navigationBarHidden(true)
+            }
         }
     }
 }
