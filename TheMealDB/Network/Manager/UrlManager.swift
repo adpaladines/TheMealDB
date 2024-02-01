@@ -33,9 +33,5 @@ struct UrlManager {
         let path = baseUrl + api + newPath.getString()
         return path
     }
-
-//    static func fake(_ file: FakeFile) -> String {
-//        file.rawValue
-//    }
     
 }
